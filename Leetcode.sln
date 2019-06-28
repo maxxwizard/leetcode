@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LastStoneWeight", "LastStoneWeight\LastStoneWeight.csproj", "{6C5BC707-2E43-429D-9833-FFA9E6229A3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts", "Contacts\Contacts.csproj", "{EDECEB50-212A-4956-8B51-F1784F454116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contacts", "Contacts\Contacts.csproj", "{EDECEB50-212A-4956-8B51-F1784F454116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestWord", "LongestWord\LongestWord.csproj", "{2201C552-CA8D-4C08-8939-D19307C52E6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestWord", "LongestWord\LongestWord.csproj", "{D9FDAEAC-5459-43ED-A815-CEFAF4B6DCFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{EDECEB50-212A-4956-8B51-F1784F454116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDECEB50-212A-4956-8B51-F1784F454116}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDECEB50-212A-4956-8B51-F1784F454116}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2201C552-CA8D-4C08-8939-D19307C52E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2201C552-CA8D-4C08-8939-D19307C52E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2201C552-CA8D-4C08-8939-D19307C52E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2201C552-CA8D-4C08-8939-D19307C52E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9FDAEAC-5459-43ED-A815-CEFAF4B6DCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FDAEAC-5459-43ED-A815-CEFAF4B6DCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9FDAEAC-5459-43ED-A815-CEFAF4B6DCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9FDAEAC-5459-43ED-A815-CEFAF4B6DCFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
