@@ -4,6 +4,9 @@ using System.Text;
 
 namespace UniqueMorseCodeWords
 {
+    /// <summary>
+    /// https://leetcode.com/problems/unique-morse-code-words
+    /// </summary>
     class Solution
     {
         public int UniqueMorseRepresentations(string[] words)
