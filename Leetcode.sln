@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contacts", "Contacts\Contac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestWord", "LongestWord\LongestWord.csproj", "{D9FDAEAC-5459-43ED-A815-CEFAF4B6DCFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueMorseCodeWords", "UniqueMorseCodeWords\UniqueMorseCodeWords.csproj", "{94839561-72B2-4242-8D28-173E0A0886E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniqueMorseCodeWords", "UniqueMorseCodeWords\UniqueMorseCodeWords.csproj", "{94839561-72B2-4242-8D28-173E0A0886E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveOuterParantheses", "RemoveOuterParantheses\RemoveOuterParantheses.csproj", "{88D7324B-48D5-452A-986E-DB3C6E5EE364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveOuterParantheses", "RemoveOuterParantheses\RemoveOuterParantheses.csproj", "{88D7324B-48D5-452A-986E-DB3C6E5EE364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddleOfTheLinkedList", "MiddleOfTheLinkedList\MiddleOfTheLinkedList.csproj", "{B24AE0A5-D44D-4CF6-9239-3CF0AF45C5CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{88D7324B-48D5-452A-986E-DB3C6E5EE364}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88D7324B-48D5-452A-986E-DB3C6E5EE364}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88D7324B-48D5-452A-986E-DB3C6E5EE364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24AE0A5-D44D-4CF6-9239-3CF0AF45C5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24AE0A5-D44D-4CF6-9239-3CF0AF45C5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24AE0A5-D44D-4CF6-9239-3CF0AF45C5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24AE0A5-D44D-4CF6-9239-3CF0AF45C5CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
