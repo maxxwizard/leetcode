@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace LongestWord
 {
+    /// <summary>
+    /// https://leetcode.com/problems/longest-word-in-dictionary/
+    /// </summary>
     class Solution
     {
         public string LongestWord(string[] words)
