@@ -19,7 +19,7 @@ namespace LongestWord
                 "apple",
             });
 
-            Assert.AreEqual(trie.getLongestWord(), "apple");
+            Assert.AreEqual("apple", trie.getLongestWord());
         }
 
         [TestMethod]
@@ -30,7 +30,7 @@ namespace LongestWord
                 "m", "mo", "moc", "moch", "mocha", "l", "la", "lat", "latt", "latte", "c", "ca", "cat",
             });
 
-            Assert.AreEqual(trie.getLongestWord(), "latte");
+            Assert.AreEqual("latte", trie.getLongestWord());
         }
 
         [TestMethod]
@@ -41,7 +41,7 @@ namespace LongestWord
                 "yo", "ew", "fc", "zrc", "yodn", "fcm", "qm", "qmo", "fcmz", "z", "ewq", "yod", "ewqz", "y"
             });
 
-            Assert.AreEqual(trie.getLongestWord(), "yodn");
+            Assert.AreEqual("yodn", trie.getLongestWord());
         }
 
         [TestMethod]
@@ -52,7 +52,7 @@ namespace LongestWord
                 "b",
             });
 
-            Assert.AreEqual(trie.getLongestWord(), "b");
+            Assert.AreEqual("b", trie.getLongestWord());
         }
 
         [TestMethod]
@@ -62,7 +62,7 @@ namespace LongestWord
             {
             });
 
-            Assert.AreEqual(trie.getLongestWord(), "");
+            Assert.AreEqual("", trie.getLongestWord());
         }
     }
 }

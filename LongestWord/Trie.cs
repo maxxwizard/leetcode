@@ -10,10 +10,25 @@ namespace LongestWord
 
         public Trie(string[] words)
         {
-            _root = new Node('*');
+            _root = new Node(string.Empty);
+            Array.Sort(words);
             foreach (var word in words)
             {
-                _root.addWord(word);
+                switch (word.Length)
+                {
+                    case 0:
+                        break;
+                    case 1:
+                        _root.addWord(word);
+                        break;
+                    default:
+                        bool containsPrefix = contains(word.Substring(0, word.Length - 1));
+                        if (containsPrefix)
+                        {
+                            _root.addWord(word);
+                        }
+                        break;
+                }
             }
         }
 
@@ -22,20 +37,30 @@ namespace LongestWord
             return _root.contains(word, 0);
         }
 
-        public string getLongestWord()
+        // run depth-first search (DFS) and remember longest word
+        private string findLongestWord(Node current)
         {
-            string largestWord = string.Empty;
-
-            // run depth-first search (DFS) and remember longest word
-            var stack = new Stack<Node>();
-            stack.Push(_root);
-            while (stack.Count > 0)
+            string longestWord = string.IsNullOrEmpty(current.word) ? string.Empty : current.word;
+                        
+            foreach (var child in current.children)
             {
-                var current = stack.Pop();
-                // TODO
+                if (child == null || child.word == null)
+                {
+                    continue;
+                }
+                var potential = findLongestWord(child);
+                if (potential.Length > longestWord.Length)
+                {
+                    longestWord = potential;
+                }
             }
             
-            return largestWord;
+            return longestWord;
+        }
+
+        public string getLongestWord()
+        {
+            return findLongestWord(_root);
         }
     }
 }

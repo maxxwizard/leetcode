@@ -7,14 +7,14 @@ namespace LongestWord
     class Node
     {
         static int NUM_OF_CHARACTERS = 26;
-        Node[] children = new Node[NUM_OF_CHARACTERS];
-        char value;
+        public Node[] children = new Node[NUM_OF_CHARACTERS];
+        public string word = null;
 
         private int getCharValue(char c) => c - 'a';
 
-        public Node(char c)
+        public Node(string word)
         {
-            value = c;
+            this.word = word;
         }
 
         private Node getNode(char c)
@@ -55,7 +55,7 @@ namespace LongestWord
             var currentNode = getNode(current);
             if (currentNode == null)
             {
-                var newNode = new Node(current);
+                var newNode = new Node(word);
                 setNode(current, newNode);
                 currentNode = newNode;
             }
@@ -65,7 +65,7 @@ namespace LongestWord
 
         public override string ToString()
         {
-            return value.ToString();
+            return word.ToString();
         }
 
         public void addWord(string word)
